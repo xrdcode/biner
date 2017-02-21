@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xrdcode.firstapps">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!-- TODO: Add permission to access internet (uses-permission) -->
 
     <application
         android:allowBackup="true"

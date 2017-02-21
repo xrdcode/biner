@@ -27,17 +27,10 @@ public class FragmentSatu extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_fragment_satu, container, false);
-        final WebView web = (WebView) v.findViewById(R.id.webView);
-        web.getSettings().setJavaScriptEnabled(true);
-        web.setWebViewClient(new WebViewClient() {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view,
-                                                    WebResourceRequest request) {
-                web.loadUrl(request.getUrl().toString());
-                return true;
-            }
-        });
-        web.loadUrl(URL);
+
+        /* TODO: Register webview element here */
+
+        /* TODO: Implement webview code here*/
         return v;
     }
 
